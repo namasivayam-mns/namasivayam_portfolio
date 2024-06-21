@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>NAMASIVAYAM M</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="welcome">
+        <h2>Welcome</h2>
+        <p>Welcome to my design portfolio. Explore my work and get to know more about my skills and experience.</p>
+        <button onclick="location.href='resume.html'" class="blue-button">View Resume</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MNS Portfolio</p>
+        <p>Keep in touch to get feedback</p>
+        <form action="mailto:namasivayam00@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </footer>
+</body>
+</html>
